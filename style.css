@@ -3,6 +3,10 @@
     src: url('fontes/header/LaborUnion-Regular.otf') format('opentype');
   }
 
+@font-face {
+    font-family: 'opensans';
+    src: url('fontes/open-sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+}
 
 :root{
 
@@ -11,7 +15,6 @@
 body{
     margin: 0px;
     text-align: justify;
-    background-color: #023618;
 }
 
 header{
@@ -27,17 +30,17 @@ header > h2{
 
 p{
     text-align: justify;
-    font-family: ;
+    font-family: opensans;
 }
 
 h2, h3{
     text-align: left;
-    font-family: ;
+    font-family: opensans;
 }
 
 main{
     max-width: 800px;
     min-width: 400px;
     margin: auto;
-    background-color: rgba(7, 150, 67, 0.663)
+
 }
