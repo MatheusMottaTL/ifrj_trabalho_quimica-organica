@@ -28,7 +28,7 @@ header{
     font-family: 'head';
     text-align: center;
     background-color:#8fd723 ;
-    
+    box-shadow: 0px 1px 2px black;
 }
 
 header > h2{
@@ -58,4 +58,9 @@ main{
     background-color: white;
     padding: 5px;
     box-shadow: 0px 0px 3px black;
+}
+
+article{
+    margin: auto;
+    padding: 10px;
 }
