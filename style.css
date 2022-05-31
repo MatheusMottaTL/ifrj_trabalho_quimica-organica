@@ -8,3 +8,13 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
