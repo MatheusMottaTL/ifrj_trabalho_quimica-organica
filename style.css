@@ -4,8 +4,8 @@
   }
 
 @font-face {
-    font-family: 'opensans';
-    src: url('fontes/open-sans/static/OpenSans/OpenSans-Regular.ttf') format('truetype');
+    font-family: 'paragrafos';
+    src: url('fontes/open-sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Medium.ttf') format('truetype');
 }
 
 @font-face {
@@ -13,12 +13,15 @@
     src: url('fontes/open-sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: opensansh2h3;
+    src: url('fontes/open-sans/static/OpenSans/OpenSans-Bold.ttf') format('truetype');
+}
 
 
 body{
     margin: 0px;
-    text-align: justify;
-    background-color: #adff2f;
+    background-color: #8fd723;
 }
 
 header{
@@ -33,23 +36,28 @@ header > h2{
     text-align: center;
     font-family: opensansvariavel;
     font-weight: bolder;
+    background-image: none;
 }
 
 p{
     text-align: justify;
-    font-family: opensans;
+    font-family: 'EB Garamond', serif;
+    line-height: 1.5em;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 h2, h3{
     text-align: left;
-    font-family: opensans;
+    font-family: opensansh2h3;
+    background-image: linear-gradient(to right, #8fd723, #adff2f, rgb(255, 255, 255));
 }
 
 main{
-    max-width: 1000px;
-    min-width: 400px;
+    max-width: 950px;
+    min-width: 320px;
     margin: auto;
     background-color: white;
     padding: 5px;
-
+    box-shadow: 0px 0px 3px black;
 }
