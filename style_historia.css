@@ -64,27 +64,4 @@ article{
     padding: 10px;
 }
 
-nav#fontes{
-    background-color: rgb(104, 154, 29);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 5px;
-    padding: 1px;
-}
-
-nav#fontes > ul > li> a {
-    color: rgb(0, 0, 0);
-}
-
-nav#fontes > ul > li > a, nav#headernav > a, a.titulos_a{
-    text-decoration: none;
-}
-
-nav#fontes > ul > li> a:hover, nav#headernav > a, a.titulos_a{
-    text-decoration: underline;
-}
-
-
-nav#headernav{
-    border-radius: 5px;
-}
 
