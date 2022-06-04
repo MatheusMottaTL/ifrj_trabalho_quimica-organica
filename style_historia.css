@@ -82,6 +82,6 @@ nav#headernav > a{
 
 nav#headernav>a:hover{
     background-color: rgb(153, 255, 0);
-    transition-duration: 0.7s;
+    transition-duration: 1.2s;
 }
 
