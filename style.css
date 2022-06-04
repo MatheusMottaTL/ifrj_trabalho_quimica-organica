@@ -27,7 +27,7 @@ header{
     font-family: 'head';
     text-align: center;
     background-color:#8fd723 ;
-    height: 200px;
+
 }
 
 header > h2{
@@ -71,7 +71,7 @@ nav#fontes{
     padding: 1px;
 }
 
-nav#fontes > ul > li> a, a.tlink{
+nav#fontes > ul > li> a, a.tlink, nav#headernav > a{
     color: rgb(0, 0, 0);
 }
 
@@ -79,14 +79,23 @@ nav#fontes > ul > li > a, nav#headernav > a, a.tlink{
     text-decoration: none;
 }
 
-nav#fontes > ul > li> a:hover, nav#headernav > a:hover, a.tlink:hover{
+nav#fontes > ul > li> a:hover, a.tlink:hover{
     text-decoration: underline;
 }
 
-
 nav#headernav{
-    border-radius: 5px;
+    text-align: justify;
+    padding: 10px;
+    background-color: rgb(104, 154, 29);
 }
 
+nav#headernav > a{
+    border-radius: 5px;
+    padding: 5px;   
+}
 
+nav#headernav>a:hover{
+    background-color: rgb(153, 255, 0);
+    transition-duration: 0.7s;
+}
 
