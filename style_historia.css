@@ -36,11 +36,14 @@ header > h2{
     background-image: none;
 }
 
+
+
 p{
     text-align: justify;
     font-family: 'paragrafos';
     line-height: 1.5em;
     font-size: 17px;
+    margin-top: 0px;
 }
 
 h2, h3{
@@ -85,3 +88,6 @@ nav#headernav>a:hover{
     transition-duration: 1.2s;
 }
 
+h1, h2, h3{
+    padding-left: 5px;
+}
