@@ -27,9 +27,9 @@ body{
 header{
     font-family: 'head';
     text-align: center;
-    background-color:#8fd723 ;
-    background-color: rgb(104, 154, 29);
+    background-image: linear-gradient(to bottom, #347934, #689A1D );
 }
+
 header > h1{
     margin-top: 0px;
     padding-top: 15px;
@@ -81,7 +81,6 @@ nav#headernav > a{
 nav#headernav{
     text-align: justify;
     padding: 10px;
-    background-color: rgb(104, 154, 29);
 }
 
 nav#headernav > a{

@@ -35,8 +35,7 @@ body{
 header{
     font-family: 'head';
     text-align: center;
-    background-color:#8fd723 ;
-    background-color: rgb(104, 154, 29);
+    background-image: linear-gradient(to bottom, #347934, #689A1D );
 
 }
 
@@ -82,7 +81,6 @@ article{
 }
 
 nav#fontes{
-    background-color: rgb(104, 154, 29);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 5px;
     padding: 1px;
@@ -103,7 +101,6 @@ nav#fontes > ul > li> a:hover, a.tlink:hover{
 nav#headernav{
     text-align: justify;
     padding: 10px;
-    background-color: rgb(104, 154, 29);
 }
 
 nav#headernav > a{
