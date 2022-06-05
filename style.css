@@ -123,3 +123,6 @@ nav#fontes{
     font-family: fontes2;
     background-color: #689A1D;
 }
+nav#travelling > ol > li{
+    font-family: fontes;
+}
