@@ -23,11 +23,18 @@ body{
     background-color: #8fd723;
 }
 
+
 header{
     font-family: 'head';
     text-align: center;
     background-color:#8fd723 ;
+    background-color: rgb(104, 154, 29);
+
 }
+header > h1{
+    margin-top: 0px;
+}
+
 
 header > h2{
     text-align: center;
