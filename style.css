@@ -36,7 +36,6 @@ header{
     font-family: 'head';
     text-align: center;
     background-image: linear-gradient(to bottom, #347934, #689A1D );
-
 }
 
 header > h1{
@@ -122,4 +121,5 @@ h2#h2font{
 
 nav#fontes{
     font-family: fontes2;
+    background-color: #689A1D;
 }
